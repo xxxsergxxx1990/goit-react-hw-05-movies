@@ -1,3 +1,12 @@
+
+import { getTrending } from "API/Api"
+
+
+
+
+
+
+
 export const App = () => {
   return (
     <div
@@ -11,6 +20,8 @@ export const App = () => {
       }}
     >
       React homework template
+      {getTrending()}
     </div>
+    
   );
 };
