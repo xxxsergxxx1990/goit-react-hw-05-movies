@@ -41,7 +41,6 @@
   },
   "description": "Acest proiect a fost creat cu ajutorul [Create React App](https://github.com/facebook/create-react-app). Pentru prezentări și configurarea de funcții suplimentare [consultă documentația](https://facebook.github.io/create-react-app/docs/getting-started).",
   "main": "index.js",
-  "devDependencies": {},
   "author": "sergey~ <xxxsergxxx@GMAIL.COM>",
   "license": "ISC"
 }
