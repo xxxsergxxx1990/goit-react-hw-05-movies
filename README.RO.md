@@ -80,7 +80,7 @@ Dacă aplicația utilizează biblioteca react-router-dom pentru rutare,
 trebuie să configurezi suplimentar componenta `<BrowserRouter>`, trecând în prop-ul "basename" numele exact al repository-ului tău. Bara oblică la începutul șirului este obligatorie.
 
 jsx
-<BrowserRouter basename="/your_repo_name">
+<BrowserRouter basename="/goit-react-hw-05-movies">
   <App />
 </BrowserRouter>
 
