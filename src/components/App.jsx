@@ -11,7 +11,7 @@ const Cast = lazy(() => import('components/Cast/Cast'));
 const Reviews = lazy(() => import('components/Reviews'));
 
 const ErrorBoundary = () => {
-  return <h3>Please wait.......</h3>;
+  return <h3>Wystąpił błąd podczas ładowania komponentu.</h3>;
 };
 
 export const App = () => {

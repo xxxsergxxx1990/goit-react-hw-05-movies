@@ -1,11 +1,5 @@
-.wrapper {
-  padding: 15px 0px;
-}
-
-.item {
-  margin-bottom: 20px;
-}
-
-.image {
-  width: 330px;
+.title{
+   width: 200px;
+   background-color: blue;
+   display: block;
 }
