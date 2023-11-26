@@ -1,9 +1,23 @@
 
+import { Suspense } from 'react';
+import { Outlet } from 'react-router-dom';
 
+import Nav from '../Nav/Nav';
+import s from './Layout.module.css';
 
-import s from './Layout.module.css'
-export const Layout = () =>{
+const Layout = () => {
+  return (
+    <>
+      <header className={s.header}>
+        <Nav />
+      </header>
+      <main>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Outlet />
+        </Suspense>
+      </main>
+    </>
+  );
+};
 
-
-    return (<div>Layout</div>)
-} 
+export default Layout;
