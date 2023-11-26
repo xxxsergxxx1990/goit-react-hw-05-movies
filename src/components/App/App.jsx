@@ -12,7 +12,7 @@ const Reviews = lazy(() => import('../Reviews/Reviews'));
 
 export const App = () => {
   return (
-    <Suspense>
+    <Suspense fallback = 'Please wait'>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
